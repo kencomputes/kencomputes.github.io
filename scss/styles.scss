@@ -662,7 +662,7 @@ footer {
     ----- 9. Skills Styles -----
     -------------------------------
 */
-#skills {
+#code-skills {
   padding: 50px 15px;
   text-align: center;
 
@@ -688,6 +688,16 @@ footer {
     cursor: default;
     font-size: 1.2em;
   }
+}
+#cms-skills {
+  @extend #code-skills;
+  border-bottom: 1px solid $border;
+}
+#software-skills {
+  @extend #code-skills;
+}
+#related-skills {
+  @extend #cms-skills;
 }
 /*
     -------------------------------
