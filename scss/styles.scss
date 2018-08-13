@@ -665,6 +665,7 @@ footer {
 #code-skills {
   padding: 50px 15px;
   text-align: center;
+  border-bottom: 1px solid $border;
 
   h2 {
     color: $heading;
@@ -691,13 +692,12 @@ footer {
 }
 #cms-skills {
   @extend #code-skills;
-  border-bottom: 1px solid $border;
 }
 #software-skills {
   @extend #code-skills;
 }
 #related-skills {
-  @extend #cms-skills;
+  @extend #code-skills;
 }
 /*
     -------------------------------

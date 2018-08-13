@@ -579,21 +579,22 @@ footer {
     ----- 9. Skills Styles -----
     -------------------------------
 */
-#code-skills, #software-skills, #cms-skills, #related-skills {
+#code-skills, #related-skills, #software-skills, #cms-skills {
   padding: 50px 15px;
   text-align: center;
+  border-bottom: 1px solid #dcd9d9;
 }
-#code-skills h2, #software-skills h2, #cms-skills h2, #related-skills h2 {
+#code-skills h2, #related-skills h2, #software-skills h2, #cms-skills h2 {
   color: #374054;
   margin-bottom: 50px;
 }
-#code-skills ul, #software-skills ul, #cms-skills ul, #related-skills ul {
+#code-skills ul, #related-skills ul, #software-skills ul, #cms-skills ul {
   display: block;
   margin: 0 auto;
   padding: 0;
   max-width: 800px;
 }
-#code-skills li, #software-skills li, #cms-skills li, #related-skills li {
+#code-skills li, #related-skills li, #software-skills li, #cms-skills li {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
@@ -602,10 +603,6 @@ footer {
   list-style: none;
   cursor: default;
   font-size: 1.2em;
-}
-
-#cms-skills, #related-skills {
-  border-bottom: 1px solid #dcd9d9;
 }
 
 /*
